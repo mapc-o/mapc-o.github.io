@@ -8,6 +8,7 @@
     <meta name="keywords" content="UNAM FESA ICO Computaciòn FRESCO">
     <link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./assets/css/master.css">
+    <script src="./assets/js/cliente.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -27,13 +28,15 @@
         <section>
             <h1>TITULO!!!!!!! secciòn 1</h1>
             <article>
-                <h3>Tìtulo 1 de la succiòn 1</h3>
-                <p>Pàrrafo 1 del arìculo de la secciòn 1</p>
+                <h3 onclick="saludar()">Tìtulo 1 de la succiòn 1</h3>
+                <p style="color: #f00;" id="parrafo1">Pàrrafo 1 del artìculo de la secciòn 1</p>
             </article>
 
 
             <article>
                 <h3>Tìtulo del artìculo 2 de la secciòn 1</h3>
+                <p id="parrafo2">Pàrrafo del artìculo 2</p>
+                <button onclick="cambiarParrafo2()">HONK</button>
             </article>
         </section>
 
@@ -44,6 +47,11 @@
                 <p>Pàrrafo de artìculo 1 de la secciòn 2</p>
             </article>
         </section>
+
+        <div style="width: 50px; height: 50px; background-color: rgb(56, 171, 56); color: #fff;">
+            Cuerpo del div
+        </div>
+
     </main>
 
 
