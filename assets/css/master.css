@@ -5,35 +5,35 @@
 }
 
 body {
-    font-family: cursive;
-    font-size: 24px;
-    color: rgb(207, 145, 38);
-    background-color: hsl(233, 45%, 38%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: #121212;
+    background-color: #333333;
     padding: 20px;
     margin-top: 15px;
 }
 
 header {
-    background-color: hsl(221, 38%, 52%);
-    color: white;
+    background-color: #ffb223;
+    color: #121212;
     padding: 10px 20px;
     text-align: center;
 }
 
-nav ul{
+nav ul {
     list-style: none;
-    background-color: hsl(215, 50%, 59%);
+    background-color: #ef8d2a;
 
 }
 
-nav ul li{
+nav ul li {
     display: inline;
     margin-right: 15px;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: #bbb;
+    color: #ffb223;
 }
 
 section {
@@ -41,11 +41,14 @@ section {
 
 }
 
-section, article, aside {
+section,
+article,
+aside {
     margin-bottom: 20px;
     padding: 15px;
-    background-color: #a3b7de;
-    border: 1px solid #000;
+    background-color: #121212;
+    border: 1px solid #333;
+    color: #fbfbfb;
 }
 
 footer {
@@ -53,4 +56,16 @@ footer {
     background-color: #333;
     color: #ddd;
     padding: 10px 0;
+}
+
+
+section h1 {
+    color: #ffb223;
+    padding: 10px 0 20px;
+    text-align: center;
+}
+
+h3 {
+    color: #ef8d2a;
+    padding: 20px 0 10px;
 }
